@@ -20,5 +20,11 @@
           "19":"assests/gura_icon.png",
           "38":"assests/gura_icon.png"
         }
-    }
+    },
+    "background":{
+        "scripts":["background.js"]
+    },
+    "permissions":[
+        "tabs"
+    ]
 }
