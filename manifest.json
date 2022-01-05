@@ -1,0 +1,24 @@
+{
+    "manifest_version":2,
+    "version":"1.0",
+    "name":"hehehe-whowho",
+    "content_scripts":[
+        {
+         "matches":["<all_urls>"],
+         "js":["main.js"]
+        }
+    ],
+    "web_accessible_resources": [
+        "aquarium.jpeg"
+    ],
+    "icons": {
+        "48": "assests/gura_icon.png",
+        "96": "assests/gura_icon.png"
+    },
+    "browser_action":{
+        "default_icon":{
+          "19":"assests/gura_icon.png",
+          "38":"assests/gura_icon.png"
+        }
+    }
+}
